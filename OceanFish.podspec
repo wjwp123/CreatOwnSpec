@@ -17,15 +17,14 @@ Pod::Spec.new do |s|
 
   s.name         = "OceanFish"
   s.version      = "0.0.1"
-  s.summary      = "of OceanFish."
+  s.summary      = "A short description of OceanFish."
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
   #   * Try to keep it short, snappy and to the point.
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
-  s.description  = "11111111111111111111111111"
-
+  s.description  = "dfdsfdsfds"
 
   s.homepage     = "https://github.com/wjwp123/CreatOwnSpec"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
@@ -38,7 +37,7 @@ Pod::Spec.new do |s|
   #  Popular ones are 'MIT', 'BSD' and 'Apache License, Version 2.0'.
   #
 
-  s.license      = { :type => "MIT", :file => "LICENSE" }
+  s.license      = "MIT"
   # s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
 
 
@@ -79,7 +78,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/wjwp123/CreatOwnSpec.git", :tag => "0.0.1" }
+  s.source       = { :git => "https://github.com/wjwp123/CreatOwnSpec.git", :tag => "#{s.version}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -91,7 +90,7 @@ Pod::Spec.new do |s|
   #
 
   s.source_files  = "FlyOceanFish", "FlyOceanFish/**/*.{h,m}"
-  s.exclude_files = "FlyOceanFish/Exclude"
+  #s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
 
