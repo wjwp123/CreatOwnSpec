@@ -1,5 +1,5 @@
 #
-#  Be sure to run `pod spec lint OceanFish.podspec' to ensure this is a
+#  Be sure to run `pod spec lint OceanFishdfs.podspec' to ensure this is a
 #  valid spec and to remove all comments including this before submitting the spec.
 #
 #  To learn more about Podspec attributes see http://docs.cocoapods.org/specification.html
@@ -15,16 +15,16 @@ Pod::Spec.new do |s|
   #  summary should be tweet-length, and the description more in depth.
   #
 
-  s.name         = "OceanFish"
+  s.name         = "OceanFishdfs"
   s.version      = "0.0.1"
-  s.summary      = "A short description of OceanFish."
+  s.summary      = "hgjghion of OceanFishdfs."
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
   #   * Try to keep it short, snappy and to the point.
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
-  s.description  = "dfdsfdsfds"
+  s.description  = "dfdsfds"
 
   s.homepage     = "https://github.com/wjwp123/CreatOwnSpec"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
@@ -62,7 +62,7 @@ Pod::Spec.new do |s|
   #  the deployment target. You can optionally include the target after the platform.
   #
 
-   s.platform     = :ios
+  s.platform     = :ios
   # s.platform     = :ios, "5.0"
 
   #  When using multiple platforms
@@ -78,7 +78,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/wjwp123/CreatOwnSpec.git", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/wjwp123/CreatOwnSpec.git", :tag => "0.0.1" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -90,7 +90,7 @@ Pod::Spec.new do |s|
   #
 
   s.source_files  = "FlyOceanFish", "FlyOceanFish/**/*.{h,m}"
-  #s.exclude_files = "Classes/Exclude"
+  //s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
 
