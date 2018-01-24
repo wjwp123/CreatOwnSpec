@@ -1,5 +1,5 @@
 #
-#  Be sure to run `pod spec lint OceanFishdfs.podspec' to ensure this is a
+#  Be sure to run `pod spec lint FlyOceanFishs.podspec' to ensure this is a
 #  valid spec and to remove all comments including this before submitting the spec.
 #
 #  To learn more about Podspec attributes see http://docs.cocoapods.org/specification.html
@@ -15,16 +15,16 @@ Pod::Spec.new do |s|
   #  summary should be tweet-length, and the description more in depth.
   #
 
-  s.name         = "OceanFishdfs"
+  s.name         = "FlyOceanFishs"
   s.version      = "0.0.1"
-  s.summary      = "hgjghion of OceanFishdfs."
+  s.summary      = "的范德萨发六六大顺"
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
   #   * Try to keep it short, snappy and to the point.
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
-  s.description  = "dfdsfds"
+  s.description  = “第三方第三方”
 
   s.homepage     = "https://github.com/wjwp123/CreatOwnSpec"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
@@ -62,7 +62,7 @@ Pod::Spec.new do |s|
   #  the deployment target. You can optionally include the target after the platform.
   #
 
-  s.platform     = :ios
+   s.platform     = :ios
   # s.platform     = :ios, "5.0"
 
   #  When using multiple platforms
